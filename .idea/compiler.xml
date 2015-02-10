@@ -25,6 +25,8 @@
         <module name="jdi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdi" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
