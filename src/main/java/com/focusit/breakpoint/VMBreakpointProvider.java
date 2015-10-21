@@ -1,5 +1,12 @@
 package com.focusit.breakpoint;
 
-public class VMBreakpointProvider {
+import com.sun.jdi.VirtualMachine;
 
+public class VMBreakpointProvider {
+	
+	public static void addBreakpoint(VirtualMachine vm, VMBreakpoint breakpoint){
+		
+	}
+	
+	
 }
