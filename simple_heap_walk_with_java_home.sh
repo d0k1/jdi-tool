@@ -9,4 +9,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-java -cp ${JAVA_HOME}/lib/tools.jar:${JAVA_HOME}/lib/sa-jdi.jar:jdi-sa-heap-walk.jar com.focusit.heapwalk.SimpleHeapWalk $1
+java -cp ${JAVA_HOME}/lib/tools.jar:${JAVA_HOME}/lib/sa-jdi.jar:jdi-sa-tools.jar com.focusit.heapwalk.SimpleHeapWalk $1
